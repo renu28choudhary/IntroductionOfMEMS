@@ -35,6 +35,7 @@ def plot_unit_cell(ax, lattice_constant, structure_type):
                                                  [0.5, 1, 0.5], [0.5, 0.5, 1]])
         ax.scatter(fcc_atoms[:, 0], fcc_atoms[:, 1], fcc_atoms[:, 2], color='r')
     
+    
     ax.set_xlabel('X')
     ax.set_ylabel('Y')
     ax.set_zlabel('Z')
